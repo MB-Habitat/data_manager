@@ -1,8 +1,8 @@
 # Databricks notebook source
-# MAGIC %r
-# MAGIC x <- rnorm(1000)
+import numpy as np
+from matplotlib import pyplot as plt
 
 # COMMAND ----------
 
-# MAGIC %r
-# MAGIC hist(x)
+x = np.random.normal(0, 1, 10000)
+plt.hist(x)
