@@ -1,5 +1,14 @@
 # Databricks notebook source
 # MAGIC %md
+# MAGIC ---
+# MAGIC Author: Mustapha Bouhsen <br>
+# MAGIC Email : mustapha.bouhsen@habitat-nature.com <br>
+# MAGIC Date: July 31, 2024<br>
+# MAGIC ---
+
+# COMMAND ----------
+
+# MAGIC %md
 # MAGIC ## Create the mount folder
 # MAGIC
 # MAGIC In this section, we create a mount folder to get access the data in the blob storage
